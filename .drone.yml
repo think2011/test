@@ -1,0 +1,5 @@
+pipeline:
+  node:
+    image: node:9.8.0-alpine
+    commands:
+      - npm install

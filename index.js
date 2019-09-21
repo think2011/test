@@ -1,1 +1,1 @@
-test222asd
+console.log('ok')
