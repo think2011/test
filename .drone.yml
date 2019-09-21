@@ -16,6 +16,6 @@ name: BBB
 
 steps:
   - name: node22
-    image: node:9.8.0-alpine
+    image: byrnedo/alpine-curl
     commands:
       - curl ifconfig.co
