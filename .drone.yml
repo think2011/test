@@ -1,6 +1,21 @@
-pipeline:
-  node:
+kind: pipeline
+type: docker
+name: AAA
+
+steps:
+  - name: node
     image: node:9.8.0-alpine
     commands:
       - yarn
       - ls
+
+---
+kind: pipeline
+type: docker
+name: BBB
+
+steps:
+  - name: node22
+    image: node:9.8.0-alpine
+    commands:
+      - curl ifconfig.co
