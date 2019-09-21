@@ -1,21 +1,15 @@
 kind: pipeline
 type: docker
-name: AAA
+name: Default
 
 steps:
   - name: node
     image: node:9.8.0-alpine
     commands:
       - yarn
-      - ls
+      - pwd
 
----
-kind: pipeline
-type: docker
-name: BBB
-
-steps:
-  - name: node22
+  - name: ip check
     image: byrnedo/alpine-curl
     commands:
       - curl ifconfig.co
