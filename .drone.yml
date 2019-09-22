@@ -9,6 +9,7 @@ steps:
       - yarn cache dir
       - pwd
       - TTT=123
+      - echo $TTT
 
   - name: ip check
     image: byrnedo/alpine-curl
