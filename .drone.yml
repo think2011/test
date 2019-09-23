@@ -3,16 +3,13 @@ type: docker
 name: Default
 
 steps:
-  - name: node
-    image: node:9.8.0-alpine
+  - name: rsync
+    image: drillster/drone-rsync
     commands:
-      - yarn cache dir
-      - pwd
-      - TTT=123
-      - echo $TTT
-
-  - name: ip check
-    image: byrnedo/alpine-curl
-    commands:
-      - curl ifconfig.co
-      - echo $TTT
+      - ls
+    settings:
+      user: root
+      hosts:
+        - remote1
+      source: ./fff
+      target: ~/tmp/
