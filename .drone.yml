@@ -3,7 +3,8 @@ type: docker
 name: Default
 
 steps:
-  - name: node
-    image: node:9.8.0-alpine
+  - name: sync
+    image: eeacms/rsync
     commands:
+      - ls
       - rsync -avcz ./fff.txt root@ss.think2011.net:/root/tmp/
