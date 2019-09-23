@@ -12,5 +12,6 @@ steps:
       user: root
       hosts:
         - ss.think2011.net
+      port: 22
       source: ./fff.txt
       target: ~/tmp/
