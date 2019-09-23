@@ -14,5 +14,5 @@ steps:
         - ss.think2011.net
       source: ./fff.txt
       target: ~/tmp/
-    secrets:
-      - rsync_key: rsync_key
+    commands:
+      - echo $rsync_key
