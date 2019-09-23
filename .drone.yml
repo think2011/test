@@ -10,6 +10,6 @@ steps:
     settings:
       user: root
       hosts:
-        - remote1
+        - ss.think2011.net
       source: ./fff
       target: ~/tmp/
