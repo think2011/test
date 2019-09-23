@@ -5,8 +5,6 @@ name: Default
 steps:
   - name: rsync
     image: drillster/drone-rsync
-    commands:
-      - echo $rsync_key
     environment:
       rsync_key:
         from_secret: pkey
