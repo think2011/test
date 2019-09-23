@@ -6,8 +6,8 @@ steps:
   - name: rsync
     image: drillster/drone-rsync
     commands:
-      - echo P_KEY
-      - echo pkey
+      - echo $P_KEY
+      - echo $pkey
     environment:
       P_KEY:
         from_secret: pkey
