@@ -3,8 +3,11 @@ type: docker
 name: Default
 
 steps:
-  - name: sync
-    image: eeacms/rsync
-    commands:
-      - ls
-      - rsync -avcz ./fff.txt root@ss.think2011.net:/root/tmp/
+  - name: rsync
+    image: drillster/drone-rsync
+    settings:
+      user: root
+      hosts:
+        - ss.think2011.net
+      source: ./fff.txt
+      target: ~/tmp/
