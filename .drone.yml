@@ -6,7 +6,7 @@ steps:
   - name: rsync
     image: drillster/drone-rsync
     environment:
-      rsync_key:
+      RSYNC_KEY:
         from_secret: pkey
     settings:
       user: root
@@ -14,5 +14,3 @@ steps:
         - ss.think2011.net
       source: ./fff.txt
       target: ~/tmp/
-    commands:
-      - echo $rsync_key
