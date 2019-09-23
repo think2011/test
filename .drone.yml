@@ -5,11 +5,9 @@ name: Default
 steps:
   - name: rsync
     image: drillster/drone-rsync
-    commands:
-      - ls
     settings:
       user: root
       hosts:
         - ss.think2011.net
-      source: ./fff
+      source: ./fff.txt
       target: ~/tmp/
