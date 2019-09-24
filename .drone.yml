@@ -6,7 +6,7 @@ steps:
   - name: sleep 6
     image: node:12.10.0-alpine
     commands:
-      - sleep 2
+      - sleep 20
       - touch heiheihei.txt
       - echo "hiihhhhhh" >> heiheihei.txt
       - ls
@@ -14,7 +14,6 @@ steps:
   - name: sleep 6B
     image: node:12.10.0-alpine
     commands:
-      - sleep 2
       - ls
       - cat heiheihei.txt
 
