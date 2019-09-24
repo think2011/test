@@ -7,7 +7,16 @@ steps:
     image: node:12.10.0-alpine
     commands:
       - sleep 2
+      - touch heiheihei.txt
+      - echo "hiihhhhhh" >> heiheihei.txt
       - ls
+
+  - name: sleep 6
+    image: node:12.10.0-alpine
+    commands:
+      - sleep 2
+      - ls
+      - cat heiheihei.txt
 
 ---
 kind: pipeline
@@ -19,12 +28,7 @@ steps:
     image: node:12.10.0-alpine
     commands:
       - sleep 3
-      - pwd
-
-trigger:
-  branch:
-    - master
-
+      - ls
 ---
 kind: pipeline
 type: docker
