@@ -20,9 +20,10 @@ steps:
     commands:
       - sleep 3
       - pwd
-    when:
-      branch:
-        - dev
+
+trigger:
+  branch:
+    - dev
 
 ---
 kind: pipeline
