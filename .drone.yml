@@ -11,7 +11,7 @@ steps:
       - echo "hiihhhhhh" >> heiheihei.txt
       - ls
 
-  - name: sleep 6
+  - name: sleep 6B
     image: node:12.10.0-alpine
     commands:
       - sleep 2
