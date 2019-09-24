@@ -6,7 +6,7 @@ steps:
   - name: sleep 6
     image: node:12.10.0-alpine
     commands:
-      - sleep 6
+      - sleep 2
       - ls
 
 ---
@@ -20,6 +20,9 @@ steps:
     commands:
       - sleep 3
       - pwd
+    when:
+    branch:
+      - dev
 
 ---
 kind: pipeline
@@ -30,5 +33,5 @@ steps:
   - name: sleep 12
     image: node:12.10.0-alpine
     commands:
-      - sleep 12
+      - sleep 6
       - pwd
