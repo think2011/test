@@ -21,8 +21,8 @@ steps:
       - sleep 3
       - pwd
     when:
-    branch:
-      - dev
+      branch:
+        - dev
 
 ---
 kind: pipeline
