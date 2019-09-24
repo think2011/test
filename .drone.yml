@@ -1,17 +1,34 @@
 kind: pipeline
 type: docker
-name: Default
+name: Default1
 
 steps:
-  - name: rsync
-    image: drillster/drone-rsync
-    environment:
-      RSYNC_KEY:
-        from_secret: pkey
-    settings:
-      user: root
-      hosts:
-        - ss.think2011.net
-      port: 22
-      source: ./
-      target: ~/tmp/
+  - name: sleep 6
+    image: node:12.10.0-alpine
+    commands:
+      - sleep 6
+      - ls
+
+---
+kind: pipeline
+type: docker
+name: frontend2
+
+steps:
+  - name: sleep 3
+    image: node:12.10.0-alpine
+    commands:
+      - sleep 3
+      - pwd
+
+---
+kind: pipeline
+type: docker
+name: frontend3
+
+steps:
+  - name: sleep 12
+    image: node:12.10.0-alpine
+    commands:
+      - sleep 12
+      - pwd
