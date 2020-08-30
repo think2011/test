@@ -13,4 +13,4 @@ jobs:
         with:
           node-version: '12'
       - uses: bahmutov/npm-install@v1
-      - run: yarn
+      - run: ls && yarn
