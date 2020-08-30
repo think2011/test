@@ -14,7 +14,8 @@ jobs:
           node-version: '12'
 
       - uses: bahmutov/npm-install@v1
-      - run: yarn
+      - run: |
+          echo ${{github.ref}}
       
       - name: Build & Deploy Dev
         if: github.ref == 'refs/heads/develop'
