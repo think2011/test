@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/think2011/test/compare/v1.2.0...v1.3.0) (2021-07-30)
+
+
+### Features
+
+* 大版本 ([1919645](https://github.com/think2011/test/commit/19196455e3b27a1dd5b6f25807ed5f712db7bedc))
+
 ## [1.0.1](https://github.com/think2011/test/compare/v1.0.0...v1.0.1) (2021-07-30)
 
 
