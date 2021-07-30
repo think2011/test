@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/think2011/test/compare/v1.4.0...v1.5.0) (2021-07-30)
+
+
+### Features
+
+* 测试 ([bdb0031](https://github.com/think2011/test/commit/bdb003129db67684557ad3988e6950a7e8784378))
+
 # [1.4.0](https://github.com/think2011/test/compare/v1.3.0...v1.4.0) (2021-07-30)
 
 
