@@ -1,3 +1,10 @@
+# [4.2.0](https://github.com/think2011/test/compare/v4.1.0...v4.2.0) (2021-07-30)
+
+
+### Features
+
+* ok ([25b2b53](https://github.com/think2011/test/commit/25b2b53a417c7b49e0e9404b9776a094cb4044b6))
+
 # [4.1.0](https://github.com/think2011/test/compare/v4.0.0...v4.1.0) (2021-07-30)
 
 
