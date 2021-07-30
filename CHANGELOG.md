@@ -1,3 +1,16 @@
+# [6.0.0](https://github.com/think2011/test/compare/v5.3.0...v6.0.0) (2021-07-30)
+
+
+### Features
+
+* 大半呢不能 ([beb6a6e](https://github.com/think2011/test/commit/beb6a6e52a8116d27a0fae6ae3383bc7b4961c89))
+
+
+### BREAKING CHANGES
+
+* The graphiteWidth option has been removed.
+The default graphite width of 10mm is always used for performance reasons.
+
 # [5.3.0](https://github.com/think2011/test/compare/v5.2.0...v5.3.0) (2021-07-30)
 
 
