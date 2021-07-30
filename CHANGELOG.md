@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/think2011/test/compare/v1.3.0...v1.4.0) (2021-07-30)
+
+
+### Features
+
+* gogog ([7bab98f](https://github.com/think2011/test/commit/7bab98fee1e6b688ad4dfa4164a4bb8c228f3de9))
+
 # [1.3.0](https://github.com/think2011/test/compare/v1.2.0...v1.3.0) (2021-07-30)
 
 
