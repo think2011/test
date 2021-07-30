@@ -1,3 +1,15 @@
+# [4.0.0](https://github.com/think2011/test/compare/v3.0.0...v4.0.0) (2021-07-30)
+
+
+### Features
+
+* 测试 ([1e04f86](https://github.com/think2011/test/commit/1e04f860c5f364c2a44e9ec8f986a27490a5bcb5))
+
+
+### BREAKING CHANGES
+
+* 这算是大版本了吧
+
 # [1.10.0](https://github.com/think2011/test/compare/v1.9.0...v1.10.0) (2021-07-30)
 
 
