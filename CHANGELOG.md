@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/think2011/test/compare/v1.6.0...v1.7.0) (2021-07-30)
+
+
+### Features
+
+* 新版本啊啊啊啊啊啊啊啊啊啊 ([1898f93](https://github.com/think2011/test/commit/1898f93e0411472af53a3c8871c4a65b99533d18))
+
 # [1.6.0](https://github.com/think2011/test/compare/v1.5.1...v1.6.0) (2021-07-30)
 
 
