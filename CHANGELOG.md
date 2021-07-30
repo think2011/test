@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/think2011/test/compare/v1.5.0...v1.5.1) (2021-07-30)
+
+
+### Bug Fixes
+
+* 就这了 ([88716b4](https://github.com/think2011/test/commit/88716b4e98435d9e7417cd1005fca9476310e4e2))
+
 # [1.5.0](https://github.com/think2011/test/compare/v1.4.0...v1.5.0) (2021-07-30)
 
 
