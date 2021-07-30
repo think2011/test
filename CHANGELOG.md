@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/think2011/test/compare/v1.8.0...v1.9.0) (2021-07-30)
+
+
+### Features
+
+* 改动 ([a832a22](https://github.com/think2011/test/commit/a832a22b889dedba08aaff458ddc574ee771c121))
+
 # [1.8.0](https://github.com/think2011/test/compare/v1.7.0...v1.8.0) (2021-07-30)
 
 
