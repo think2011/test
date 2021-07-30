@@ -1,3 +1,10 @@
+# [5.2.0](https://github.com/think2011/test/compare/v5.1.0...v5.2.0) (2021-07-30)
+
+
+### Features
+
+* 大版本升级 ([1a0d18b](https://github.com/think2011/test/commit/1a0d18bc6fab187475eb5c92e23bb9960b31ac1f))
+
 # [5.1.0](https://github.com/think2011/test/compare/v5.0.2...v5.1.0) (2021-07-30)
 
 
