@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/think2011/test/compare/v1.7.0...v1.8.0) (2021-07-30)
+
+
+### Features
+
+* 需要大版本 ([d59e89b](https://github.com/think2011/test/commit/d59e89bcc9d8e824031094ef8d03abeed45d3e63))
+
 # [1.7.0](https://github.com/think2011/test/compare/v1.6.0...v1.7.0) (2021-07-30)
 
 
