@@ -1,3 +1,22 @@
+# [8.0.0](https://github.com/think2011/test/compare/v7.0.2...v8.0.0) (2021-07-30)
+
+
+### Bug Fixes
+
+* 规范个的的 ([1911d84](https://github.com/think2011/test/commit/1911d8413ebecd1babea0f7889b87820112765dc))
+
+
+### Features
+
+* 反反复复 ([245929e](https://github.com/think2011/test/commit/245929e85aa24da509fedf04731f5802cf3b8863))
+* 大半呢不能 ([beb6a6e](https://github.com/think2011/test/commit/beb6a6e52a8116d27a0fae6ae3383bc7b4961c89))
+
+
+### BREAKING CHANGES
+
+* The graphiteWidth option has been removed.
+The default graphite width of 10mm is always used for performance reasons.
+
 # [6.0.0](https://github.com/think2011/test/compare/v5.3.0...v6.0.0) (2021-07-30)
 
 
