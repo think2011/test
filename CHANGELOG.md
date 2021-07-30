@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/think2011/test/compare/v1.0.0...v1.0.1) (2021-07-30)
+
+
+### Bug Fixes
+
+* gogo ([1bb2724](https://github.com/think2011/test/commit/1bb2724ef93055a080417c48e2fb029e82842fa2))
+
 # 1.0.0 (2021-07-30)
 
 
