@@ -1,3 +1,10 @@
+# [9.9.0](https://github.com/think2011/test/compare/v9.8.0...v9.9.0) (2021-07-31)
+
+
+### Features
+
+* 版本测试 ([4d8e99e](https://github.com/think2011/test/commit/4d8e99e6b9d8054231a7d604509377547d72df41))
+
 # [9.8.0](https://github.com/think2011/test/compare/v9.7.0...v9.8.0) (2021-07-31)
 
 
