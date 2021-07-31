@@ -21,6 +21,6 @@
         ],
     ],
      ["@semantic-release/exec", {
-      "publishCmd": "ls"
+      "publishCmd": "node ./main.js"
     }],
 }
