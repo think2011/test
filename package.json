@@ -21,7 +21,7 @@
     "cookie-universal-nuxt": "^2.0.18",
     "dayjs": "^1.8.17",
     "dotenv-flow": "^3.1.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "lrz": "^4.9.40",
     "nuxt": "^2.9.2",
     "nuxt-logrocket": "^1.2.7",
