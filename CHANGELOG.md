@@ -1,3 +1,11 @@
+# [9.5.0](https://github.com/think2011/test/compare/v9.4.0...v9.5.0) (2021-07-31)
+
+
+### Features
+
+* sssss ([df1c44c](https://github.com/think2011/test/commit/df1c44c9f8679f8e1003dc8d8b0bb903b6b04aea))
+* xxx ([f60d67a](https://github.com/think2011/test/commit/f60d67a7d54525e9a5dab0caca0f690fe7571f05))
+
 # [9.4.0](https://github.com/think2011/test/compare/v9.3.0...v9.4.0) (2021-07-31)
 
 
