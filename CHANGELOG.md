@@ -1,3 +1,10 @@
+## [9.9.1](https://github.com/think2011/test/compare/v9.9.0...v9.9.1) (2021-07-31)
+
+
+### Bug Fixes
+
+* 船新的版本 ([04a4b13](https://github.com/think2011/test/commit/04a4b13db35eb06e0b4c0e27f604f797d011fc7c))
+
 # [9.9.0](https://github.com/think2011/test/compare/v9.8.0...v9.9.0) (2021-07-31)
 
 
