@@ -1,3 +1,10 @@
+# [9.4.0](https://github.com/think2011/test/compare/v9.3.0...v9.4.0) (2021-07-31)
+
+
+### Features
+
+* 侧鹅鹅鹅饿鹅鹅鹅鹅鹅鹅 ([4e7144b](https://github.com/think2011/test/commit/4e7144bfa66cb91c5a68021d10a3763348fa3201))
+
 # [9.3.0](https://github.com/think2011/test/compare/v9.2.0...v9.3.0) (2021-07-30)
 
 
