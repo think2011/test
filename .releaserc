@@ -22,5 +22,5 @@
     ],
      ["@semantic-release/exec", {
       "publishCmd": "node ./main.js"
-    }],
+    }]
 }
