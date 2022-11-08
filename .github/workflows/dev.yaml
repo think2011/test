@@ -22,6 +22,6 @@ jobs:
           cache-to: type=gha,mode=max
           load: true
       - name: Copy files
-      - run: |
+        run: |
              docker cp myimage:latest:/app ./
              ls
