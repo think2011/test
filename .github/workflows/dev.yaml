@@ -22,4 +22,4 @@ jobs:
           cache-to: type=gha,mode=max
       - name: Copy files
         run: |
-            docker image
+            docker images
