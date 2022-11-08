@@ -23,5 +23,5 @@ jobs:
           load: true
       - name: Copy files
         run: |
-             docker cp myimage:latest:/app ./
+             docker run --rm -v $PWD:/opt/mount myimage:latest cp -rf node_modules /opt/mount
              ls
