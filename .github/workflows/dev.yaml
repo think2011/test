@@ -1,9 +1,4 @@
-name: dev
-
-on:
-  push:
-    branches:
-      - dev
+name: test
 
 jobs:
   check-and-build:
