@@ -21,6 +21,6 @@ jobs:
           cache-from: type=gha
           cache-to: type=gha,mode=max
       - name: Copy files
-      - run: |
-             docker cp myimage:latest:/app ./
-             ls
+        run: |
+            docker cp myimage:latest:/app ./
+            ls
