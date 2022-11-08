@@ -17,14 +17,9 @@ jobs:
           context: .
           push: false
           file: Dockerfile
+          tags: myimage:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
-      - name: Build and push2
-        uses: docker/build-push-action@v3
-        with:
-          context: .
-          push: false
-          file: Dockerfile
-          cache-from: type=gha
-          cache-to: type=gha,mode=max
+      - name: Copy files
+      - run: docker cp myimage:latest:/app ./
       - run: ls
