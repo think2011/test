@@ -27,4 +27,4 @@ jobs:
           file: Dockerfile
           cache-from: type=gha
           cache-to: type=gha,mode=max
-        run: ls
+      - run: ls
