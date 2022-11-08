@@ -20,6 +20,7 @@ jobs:
           tags: myimage:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
+          load: true
       - name: Copy files
         run: |
             docker images
